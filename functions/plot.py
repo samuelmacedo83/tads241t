@@ -39,7 +39,7 @@ def plot_ts(ticker:str
 
     fig = px.line(data,
         x = 'Date', y = 'Close',
-        title = f'{ticker} Closing Prices Over Time'
+        title = f'Preço de fechamento de {ticker} '
     )
 
     return fig
